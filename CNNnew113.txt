@@ -1,0 +1,128 @@
+Ytrain shape: (38, 1, 2015745)
+mbtrain shape: (3, 152, 2015745)
+Ytest shape: (38, 1, 224033)
+mbtest shape: (3, 152, 224033)
+Yvalidation shape: (38, 1, 205991)
+mbvalidation shape: (3, 152, 205991)
+W1 shape: (1, 38, 1, 5)
+P1 shape: (?, 3, 115, 5)
+A1 shape: (?, 3, 111, 5)
+W2 shape: (1, 13, 5, 7)
+P2 shape: (?, 3, 50, 7)
+W3 shape: (1, 12, 7, 10)
+P3 shape: (?, 3, 20, 10)
+W4 shape: (1, 12, 10, 13)
+P4 shape: (?, 3, 5, 13)
+flattened shape: (?, 195)
+dropout 7: 100
+P7 shape: (?, 38)
+Cost after epoch 1: 0.599525
+Cost after epoch 2: 0.361448
+Cost after epoch 3: 0.276703
+Cost after epoch 4: 0.209322
+Cost after epoch 5: 0.156229
+Cost after epoch 6: 0.131815
+Cost after epoch 7: 0.113020
+Cost after epoch 8: 0.098128
+Cost after epoch 9: 0.086044
+Cost after epoch 10: 0.075478
+Cost after epoch 11: 0.066620
+Cost after epoch 12: 0.058638
+Cost after epoch 13: 0.052591
+Cost after epoch 14: 0.046712
+Cost after epoch 15: 0.041598
+Cost after epoch 16: 0.038334
+Cost after epoch 17: 0.034181
+Cost after epoch 18: 0.031452
+Cost after epoch 19: 0.028753
+Cost after epoch 20: 0.026087
+Cost after epoch 21: 0.024174
+Cost after epoch 22: 0.022411
+Cost after epoch 23: 0.020869
+Cost after epoch 24: 0.019348
+Cost after epoch 25: 0.018272
+Cost after epoch 26: 0.017282
+Cost after epoch 27: 0.016196
+Cost after epoch 28: 0.015522
+Cost after epoch 29: 0.014651
+Cost after epoch 30: 0.013997
+time elapsed during training: 55054.19397807121
+
+Test OverAll Accuracy: 0.995335510103
+Test No Fault Accuracy: 0.996621054076
+Test Low Voltage Accuracy: 0.998817368926
+Test High Voltage Accuracy: 0.998817368836
+Test Low Current Accuracy: 0.996281274676
+Test High Current Accuracy: 0.999831052704
+Test High Voltage High Current Accuracy: 0.999155263519
+Test High Voltage Low Current Accuracy: 1.0
+Test Low Voltage High Current Accuracy: 1.0
+Test Low Voltage Low Current Accuracy: 0.999493158111
+Test Magnetic Fault  Accuracy: 0.999831052704
+Test Low Voltage Magnetic Accuracy: 1.0
+Test High Voltage Magnetic Accuracy: 0.999662105408
+Test Low Current Magnetic Accuracy: 0.999493158111
+Test High Current Magnetic Accuracy: 0.999493158111
+Test Heat Diode Fault Accuracy: 0.999830278505
+Test Low Voltage Heat Diode Accuracy: 0.997972631438
+Test High Voltage Heat Diode Accuracy: 0.992397370663
+Test Low Current Heat Diode Accuracy: 0.997972632355
+Test High Current Heat Diode Accuracy: 0.999155263428
+Test Heat Mosfet Fault Accuracy: 0.990224483262
+Test Low Voltage Heat Mosfet Accuracy: 0.910457849049
+Test High Voltage Heat Mosfet Accuracy: 0.979388419791
+Test Low Current Heat Mosfet Accuracy: 0.971954732252
+Test High Current Heat Mosfet Accuracy: 0.996283159483
+Test Capacitor resistance Accuracy: 0.999662105408
+Test Low Voltage Capacitor resistance Accuracy: 1.0
+Test High Voltage Capacitor resistance Accuracy: 1.0
+Test Low Current Capacitor resistance Accuracy: 1.0
+Test High Current Capacitor resistance Accuracy: 1.0
+Test Open Circuit Resitance Accuracy: 1.0
+Test Short Circuit Resistance Accuracy: 1.0
+Test Open Circuit Diode Accuracy: 1.0
+Test Short Circuit Diode Accuracy: 1.0
+Test Open Circuit Inductor Accuracy: 1.0
+Test Short Circuit Inductor Accuracy: 1.0
+Test Open Circuit Mosfet Accuracy: 1.0
+Test Short Circuit Mosfet Accuracy: 1.0
+Test Open Circuit Capacitor Accuracy: 1.0
+Validation OverAll Accuracy: 0.995087165128
+Validation No Fault Accuracy: 0.996918059545
+Validation Low Voltage Accuracy: 0.99981715139
+Validation High Voltage Accuracy: 1.0
+Validation Low Current Accuracy: 0.999818709382
+Validation High Current Accuracy: 0.999818709382
+Validation High Voltage High Current Accuracy: 1.0
+Validation High Voltage Low Current Accuracy: 1.0
+Validation Low Voltage High Current Accuracy: 1.0
+Validation Low Voltage Low Current Accuracy: 1.0
+Validation Magnetic Fault  Accuracy: 1.0
+Validation Low Voltage Magnetic Accuracy: 1.0
+Validation High Voltage Magnetic Accuracy: 1.0
+Validation Low Current Magnetic Accuracy: 1.0
+Validation High Current Magnetic Accuracy: 1.0
+Validation Heat Diode Fault Accuracy: 1.0
+Validation Low Voltage Heat Diode Accuracy: 0.999274837573
+Validation High Voltage Heat Diode Accuracy: 0.997280640737
+Validation Low Current Heat Diode Accuracy: 0.998912256295
+Validation High Current Heat Diode Accuracy: 1.0
+Validation Heat Mosfet Fault Accuracy: 0.992385793026
+Validation Low Voltage Heat Mosfet Accuracy: 0.885968092691
+Validation High Voltage Heat Mosfet Accuracy: 0.990391596233
+Validation Low Current Heat Mosfet Accuracy: 0.96537345959
+Validation High Current Heat Mosfet Accuracy: 0.990572886808
+Validation Capacitor resistance Accuracy: 1.0
+Validation Low Voltage Capacitor resistance Accuracy: 1.0
+Validation High Voltage Capacitor resistance Accuracy: 1.0
+Validation Low Current Capacitor resistance Accuracy: 1.0
+Validation High Current Capacitor resistance Accuracy: 1.0
+Validation Open Circuit Resitance Accuracy: 1.0
+Validation Short Circuit Resistance Accuracy: 1.0
+Validation Open Circuit Diode Accuracy: 1.0
+Validation Short Circuit Diode Accuracy: 1.0
+Validation Open Circuit Inductor Accuracy: 1.0
+Validation Short Circuit Inductor Accuracy: 1.0
+Validation Open Circuit Mosfet Accuracy: 1.0
+Validation Short Circuit Mosfet Accuracy: 1.0
+Validation Open Circuit Capacitor Accuracy: 1.0
